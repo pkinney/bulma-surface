@@ -32,7 +32,7 @@ end
 ```elixir
 def deps do
   [
-    {:bulma_surface, "~> 0.1.0"}
+    {:bulma_surface, "~> 0.3.0"}
   ]
 end
 ```

@@ -9,6 +9,8 @@ defmodule Bulma.Elements.ProgressBar do
 
   prop class, :css_class
 
+  slot default
+
   @impl true
   def render(assigns) do
     ~H"""

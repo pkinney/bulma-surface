@@ -6,6 +6,8 @@ defmodule Bulma.Elements.Subtitle do
   prop spaced, :boolean, default: false
   prop class, :css_class
 
+  slot default
+
   @impl true
   def render(assigns) do
     ~H"""

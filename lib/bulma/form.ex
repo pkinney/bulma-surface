@@ -51,5 +51,5 @@ defmodule Bulma.Form do
     (opts ++ event_opts ++ assigns[:opts]) |> List.flatten()
   end
 
-  def prop_to_opts(value, key), do: Surface.prop_to_opts(value, key)
+  def prop_to_opts(value, key), do: Surface.prop_to_attr_opts(value, key)
 end

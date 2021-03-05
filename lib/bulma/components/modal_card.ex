@@ -20,7 +20,7 @@ defmodule Bulma.Components.ModalCard do
       <div class="modal-background" />
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title"><slot name="title">{{ @title }}</slot></p>
+          <p class="modal-card-title"><slot name="title_content">{{ @title }}</slot></p>
           <Bulma.Elements.Delete click={{ @close }} :if={{ @close }} />
         </header>
         <section class="modal-card-body">
